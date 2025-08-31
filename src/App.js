@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <DndContext onDragEnd={handleDragEnd}>
-      <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-500 p-6">
+      <div className="min-h-screen bg-gradient-to-br from-pink-50 to-purple-400 p-6">
         <h1 className="text-4xl font-bold text-center text-orange-700 mb-10 drop-shadow-sm">
           Kanban Board
         </h1>
